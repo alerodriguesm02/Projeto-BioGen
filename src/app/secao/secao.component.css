@@ -181,7 +181,7 @@ nav li a:hover {
   color: white;
   font-size: 14px;
   font-weight: 300;
-  margin-top: -20px;
+  margin-top: 0px;
 }
 
 .btn-primary {
@@ -479,5 +479,45 @@ footer i {
 .row-col-2 {
   display: grid;
   grid-template-columns: 50% 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.card {
+  border: 0px solid #ccc;
+  border-radius: 8px;
+  width: 23%; /* Ajuste conforme necessário */
+  /*box-shadow: 0 2px 8px rgba(0,0,0,0.1);*/
+  text-align: center;
+  display: flex; /* Adicionado */
+  flex-direction: column; /* Adicionado */
+}
+
+.card-img {
+  width: 70%;
+  padding: 5%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: block; /* Torna a imagem um bloco */
+  margin-left: auto; /* Margem esquerda automática */
+  margin-right: auto; /* Margem direita automática */
+}
+
+.card-body {
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 0.9em;
 }
 
