@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BannerCtaComponent } from '../banner-cta/banner-cta.component';
 
 @Component({
   selector: 'app-mini-carrosel',

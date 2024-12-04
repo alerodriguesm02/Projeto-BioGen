@@ -127,6 +127,7 @@ nav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: #333333 !important;
 }
 nav li a:visited {
   color: #333333;
@@ -139,6 +140,10 @@ nav li a:active {
 nav li a:hover {
   color: #01b658;
   transition: 0.3s ease-in-out;
+}
+
+a {
+  text-decoration: none;
 }
 
 .logo-nav {
